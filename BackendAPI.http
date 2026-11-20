@@ -1,0 +1,11 @@
+@BackendAPI_HostAddress = http://localhost:5014
+
+GET {{BackendAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{BackendAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
